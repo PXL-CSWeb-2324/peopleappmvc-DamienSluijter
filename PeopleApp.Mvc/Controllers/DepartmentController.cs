@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using PeopleApp.ClassLib.Models;
 using PeopleApp.Mvc.Services.Interfaces;
 
@@ -21,6 +22,12 @@ namespace PeopleApp.Mvc.Controllers
                 return View(result.Entities);
             }
             return View(Enumerable.Empty<Department>());
+        }
+
+        [HttpGet]
+        public IActionResult Create()
+        {
+            return View();
         }
 
         [HttpPost]
