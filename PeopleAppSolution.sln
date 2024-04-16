@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleApp.Api", "PeopleApp.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeopleApp.ClassLib", "PeopleApp.ClassLib\PeopleApp.ClassLib.csproj", "{796D46D7-E415-4001-AF92-1CC447F28E01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PeopleApp.Mvc", "PeopleApp.Mvc\PeopleApp.Mvc.csproj", "{8A2B2C87-A833-489D-A9C9-82A4CA9159F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{796D46D7-E415-4001-AF92-1CC447F28E01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{796D46D7-E415-4001-AF92-1CC447F28E01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{796D46D7-E415-4001-AF92-1CC447F28E01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2B2C87-A833-489D-A9C9-82A4CA9159F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2B2C87-A833-489D-A9C9-82A4CA9159F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2B2C87-A833-489D-A9C9-82A4CA9159F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2B2C87-A833-489D-A9C9-82A4CA9159F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
